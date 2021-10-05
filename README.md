@@ -9,7 +9,7 @@
 3. [UI / UX 목업](#3-ui--ux-목업)
 4. [기능 소개](#4-기능-소개)
 
-프로젝트 바로가기 : [프로젝트 주소](http://3.35.0.242:8081/)
+프로젝트 시연 바로가기 : [프로젝트 주소](http://3.35.0.242:8081/)
 
 <br>
 
@@ -58,11 +58,13 @@ ovenapp을 사용해 UI / UX 목업을 제작
 ## 4. 기능 소개
 
 * 로그인 / 회원가입
-* 결제 - [서버](https://github.com/flip1945/sinchonbeer/tree/main/SinchonBeer/src/main/java/com/bitcamp/sc/pay) / [프론트](https://github.com/flip1945/sinchonbeer/blob/main/SinchonBeer/src/main/resources/templates/tour/makeReservation/reservationForm.html)
-* 양조장 투어 예약 - [서버](https://github.com/seongdeokjo/sinchonbeer/tree/main/SinchonBeer/src/main/java/com/bitcamp/sc/tour) / [프론트](https://github.com/seongdeokjo/sinchonbeer/tree/main/SinchonBeer/src/main/resources/templates/tour)
+* 결제
+   * [결제 기능](https://github.com/flip1945/sinchonbeer/tree/main/SinchonBeer/src/main/java/com/bitcamp/sc/pay)
+   * [주문 기능](https://github.com/flip1945/sinchonbeer/tree/main/SinchonBeer/src/main/java/com/bitcamp/sc/order) ([투어 결제 페이지](https://github.com/flip1945/sinchonbeer/blob/main/SinchonBeer/src/main/resources/templates/tour/makeReservation/reservationForm.html))
+* 양조장 투어 예약
 * 상품 구매
 * 장바구니
-~~* 1:1 상담 채팅~~
+* ~~1:1 상담 채팅~~
 * 상품 및 투어 리뷰
 
 <br>
