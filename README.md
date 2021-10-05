@@ -9,13 +9,21 @@
 3. [UI / UX 목업](#3-ui--ux-목업)
 4. [기능 소개](#4-기능-소개)
 
+프로젝트 바로가기 : [프로젝트 주소](http://3.35.0.242:8081/)
+
 <br>
 
 ## 1. 제작 기간 & 참여 인원
 
 * 2021년 7월 29일 ~ 2021년 9월 28일
-* 팀장 : [윤병우](https://github.com/yoonbung12)
-* 팀원 : [김은선](https://github.com/SunWater8), [류한성](https://github.com/Gamaspin), [정다예](https://github.com/daayeah), [조성덕](https://github.com/seongdeokjo), [채호연](https://github.com/flip1945)
+* 팀장
+    * [윤병우](https://github.com/yoonbung12) : 상품 기능
+* 팀원
+    * [김은선](https://github.com/SunWater8) : 회원 기능
+    * [류한성](https://github.com/Gamaspin) : 리뷰 기능
+    * [정다예](https://github.com/daayeah) : 마이페이지 기능
+    * [조성덕](https://github.com/seongdeokjo) : 투어 기능
+    * [채호연](https://github.com/flip1945) : 주문 & 결제 기능
 
 <br>
 
