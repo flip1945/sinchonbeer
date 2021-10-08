@@ -95,7 +95,7 @@
     </select>
     
     
-     06-1. 게시글 좋아요 증가 처리
+    <!-- 06-1. 게시글 좋아요 증가 처리 -->
 	<update id="likeReview" parameterType="com.bitcamp.sc.review.domain.ReviewVO" >
 		UPDATE 
 			review 
@@ -105,15 +105,15 @@
 			ridx = #{idx}
 	</update>
 	
-	06-2. 게시글 좋아요 감소 처리
-	<update id="likeReview" parameterType="com.bitcamp.sc.review.domain.ReviewVO" >
+	<!-- 06-2. 게시글 좋아요 감소 처리 -->
+	<!-- <update id="likeReview" parameterType="com.bitcamp.sc.review.domain.ReviewVO" >
 		UPDATE 
 			review 
 		SET 
 			rlikes = #{likes} - 1
 		WHERE 
 			ridx = #{idx}
-	</update>
+	</update> -->
     
     
     
