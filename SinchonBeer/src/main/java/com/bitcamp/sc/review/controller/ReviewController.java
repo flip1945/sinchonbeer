@@ -31,7 +31,6 @@ public class ReviewController {
 			LoginInfo loginInfo = (LoginInfo) session.getAttribute("loginInfo");
 			System.out.println("로그인정보 : " + loginInfo);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return "review/reviewMain";
@@ -46,7 +45,6 @@ public class ReviewController {
 			LoginInfo loginInfo = (LoginInfo) session.getAttribute("loginInfo");
 			System.out.println("로그인정보 : " + loginInfo);
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return "review/reviewMain";
@@ -79,7 +77,7 @@ public class ReviewController {
 		try {
 			check = reviewService.insertReview(vo);
 		} catch (Exception e) {
-			// TODO: handle exception
+			e.printStackTrace();
 		}
 		return check;
 	}
@@ -98,11 +96,9 @@ public class ReviewController {
 		}
 		try {
 			vo = reviewService.readReview(idx);
-			String content = vo.getContents();
 			model.addAttribute("view", vo);
 		} catch (Exception e) {
 			e.printStackTrace();
-			// TODO: handle exception
 		}
 	return "review/view";
   }
@@ -124,7 +120,6 @@ public class ReviewController {
 			check = 1;
 		} catch (Exception e) {
 			e.printStackTrace();
-			// TODO: handle exception
 		}
 		return check; 
 	}
@@ -145,7 +140,6 @@ public class ReviewController {
 				model.addAttribute("view", vo);
 			} catch (Exception e) {
 				e.printStackTrace();
-				// TODO: handle exception
 			}
 		}
 	return "review/modify";
@@ -167,7 +161,6 @@ public class ReviewController {
 			try {
 				check = reviewService.updateReview(vo);
 			} catch (Exception e) {
-				// TODO: handle exception
 			}
 			return check;
 		}
@@ -191,7 +184,6 @@ public class ReviewController {
 			check = 1; 
 		} catch (Exception e) {
 			e.printStackTrace(); 
-			// TODO: handle exception 
 		}
 		 
 		return check; 
